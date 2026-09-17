@@ -12,3 +12,5 @@ predictions come true (e.g., raising a round within 12 months).
 - Secrets live in .env and are loaded with python-dotenv. Never hardcode keys.
 - Respect API rate limits.
 - Keep code simple and explain it; I'm learning as I build.
+- Always run Python with venv/bin/python and install packages with
+  venv/bin/python -m pip. Never use the system python3.
